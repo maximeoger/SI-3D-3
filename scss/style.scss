@@ -1,23 +1,52 @@
+body{
+
+
+}
 .Tunnel{
-   margin-top: 50px;
-   background: red;
+
+  &-container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  &-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    background: black;
+  }
+
+  &-pagesContainer{
+    position: absolute;
+    z-index: 20;
+    left: calc(50% - 350px);
+    top: calc(50% - 250px);
+  }
+
   &-pages{
        border: 1px solid;
        width: 700px;
        height: 500px;
-       background-color: #B4B2B2;
-       opacity: 0.8;
+       background-color: #EFEFEF;
        display: none;
-     }
+  }
+
+  &-pagesTitle{
+    font-size: 18px;
+    padding-bottom: 50px;
+  }
+
   &-buttonRight{
-    margin-left: 70%;
   }
+
   &-buttonLeft{
-    margin-left: 50%;
   }
-  }
+
 }
+
 .is-active{
- //display: block;
- margin-left: 23%;
+ display: block;
 }
