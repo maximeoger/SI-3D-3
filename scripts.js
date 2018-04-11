@@ -1,6 +1,6 @@
-var tunnel_pages = document.querySelectorAll('.tunnel-pages');
-var buttonsRight = document.querySelectorAll('.button1');
-var buttonsLeft = document.querySelectorAll('.button2');
+var tunnel_pages = document.querySelectorAll('.Tunnel-pages');
+var buttonsRight = document.querySelectorAll('.Tunnel-pages-buttonRight');
+var buttonsLeft = document.querySelectorAll('.Tunnel-pages-buttonLeft');
  var index = 0;
   for (var i = 0; i < buttonsRight.length; i++) {
     buttonsRight[i].addEventListener('click', function() {

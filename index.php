@@ -8,9 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include 'includes/header.php'; ?>
+
     <?php include 'includes/tunnel.php'; ?>
-    <?php include 'includes/footer.php'; ?>
+
     <script src="scripts.js"></script>
 </body>
 </html>
