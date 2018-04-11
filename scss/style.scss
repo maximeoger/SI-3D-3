@@ -22,15 +22,17 @@ body{
   &-pagesContainer{
     position: absolute;
     z-index: 20;
-    left: calc(50% - 350px);
-    top: calc(50% - 250px);
+    margin-left: 25%;
+    margin-top: 10%;
+    // left: calc(50% - 350px);
+    // top: calc(50% - 250px);
   }
-  
+
 
   &-pages{
        border: 1px solid;
-       width: 700px;
-       height: 500px;
+       width: 50vw;
+       height: 60vh;
        background-color: #EFEFEF;
        display: none;
        &-button-Right{}
