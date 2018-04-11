@@ -1,0 +1,21 @@
+.parent{
+       display: flex;
+       flex-wrap: nowrap;
+       align-items: center;
+       margin-top: 50px;
+     }
+     .div{
+       border: 1px solid;
+       width: 700px;
+       height: 500px;
+       background-color: #B4B2B2;
+       opacity: 0.8;
+       display: none;
+     }
+     .is-active{
+       display: block;
+       margin-left: 23%
+     }
+      button{
+        margin-left: 70%;
+      }
