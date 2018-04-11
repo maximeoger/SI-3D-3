@@ -13,7 +13,7 @@
        <label for="prénom"> Entrez votre numéro de téléphone:</label>
        <input type="tel" name="tel" value=""><br>
 
-   <button class="button1"type="button" > passer à l'étape suivante </button>
+   <button class="Tunnel-pages-buttonRight"type="button" > passer à l'étape suivante </button>
 
  </div>
 
@@ -28,8 +28,8 @@
    <label for="prénom"> lebelé de la voie:</label>
    <input type="tel" name="tel" value=""><br>
 
-   <button class="button1"type="button" > passer à l'étape suivante </button>
-   <button class="button2"type="button" > revenir </button>
+   <button class="Tunnel-pages-buttonRight"type="button" > passer à l'étape suivante </button>
+   <button class="Tunnel-pages-buttonLeft"type="button" > revenir </button>
  </div>
 
  <div class="Tunnel-pages">

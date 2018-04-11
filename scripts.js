@@ -4,6 +4,7 @@ var buttonsLeft = document.querySelectorAll('.Tunnel-pages-buttonLeft');
  var index = 0;
   for (var i = 0; i < buttonsRight.length; i++) {
     buttonsRight[i].addEventListener('click', function() {
+      console.log('hiii');
     tunnel_pages[index].classList.remove('is-active');
     index++;
     tunnel_pages[index].classList.add('is-active');
