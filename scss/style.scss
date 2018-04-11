@@ -25,6 +25,7 @@ body{
     left: calc(50% - 350px);
     top: calc(50% - 250px);
   }
+  
 
   &-pages{
        border: 1px solid;
@@ -32,21 +33,15 @@ body{
        height: 500px;
        background-color: #EFEFEF;
        display: none;
+       &-button-Right{}
+       &-button-Left{}
   }
 
   &-pagesTitle{
     font-size: 18px;
     padding-bottom: 50px;
   }
-
-  &-buttonRight{
-  }
-
-  &-buttonLeft{
-  }
-
 }
-
 .is-active{
  display: block;
 }
