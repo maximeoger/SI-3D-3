@@ -1,0 +1,342 @@
+@font-face {
+	 font-family: "Gotham";
+	 src: url("../fonts/GOTHAM-BOLD.TTF");
+}
+
+@font-face {
+	 font-family: "Anglecia";
+	 src: url("../fonts/Anglecia-Pro-Text-Regular.otf");
+}
+
+@font-face {
+	 font-family: "Gotham Black";
+	 src: url("../fonts/GOTHAM-BLACK.TTF");
+}
+
+@font-face {
+	 font-family: "Gotham Book";
+	 src: url("../fonts/Gotham-Book.otf");
+}
+
+@font-face {
+	 font-family: "Gotham Light";
+	 src: url("../fonts/GOTHAM-LIGHT.TTF");
+}
+
+@font-face {
+	 font-family: "Gotham Medium";
+	 src: url("../fonts/gotham/Gotham-Medium.otf");
+}
+
+@font-face {
+	 font-family: "BluuNext";
+	 src: url("../fonts/BluuNext-Bold.otf");
+}
+
+.Header{
+	&-top{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #F6C4AE;
+		height: 50px;
+		font-family: "Gotham Black";
+		}
+	&-Langues{
+		display: flex;
+		margin-left: 80px;
+		color: #8B867F;
+		&-item{
+			list-style-type: none;
+			margin-right: 10px;
+		}
+	}
+	&-Link{
+		color: #8B867F;
+		text-decoration: none;
+	}
+	&-Bonjour{
+		color: white;
+		margin-right: 80px;
+	}
+	&-bottom{
+		background-color: #EFDED7;
+		display: flex;
+		justify-content: space-between;
+		height: 100px;
+		font-family: "Gotham";
+		align-items: center;
+
+		&-Title{
+			margin-left: 80px;
+			font-family: "BluuNext";
+			font-size: 55px;
+			color: white;
+		}
+		&-Liste{
+			color:white;
+			display: flex;
+			margin-right: 80px;
+
+			&-item{
+				margin-left: 50px;
+			}
+		}
+
+	}
+
+}
+
+.Section1{
+	&-image{
+		width: 100vw;
+	}
+}
+
+.Section2{
+	&-Main{
+		background-color: #F6C4AE;
+		height: 550px;
+		width: 500px;
+		position: absolute;
+		bottom: -900px;
+		left: 39%;
+	}
+	&-MainImg{
+		position: absolute;
+		bottom: -750px;
+		left: 37%;
+		width: 460px;
+	}
+	&-MainText{
+		position: absolute;
+		z-index: 3;
+		left: 43%;
+		bottom: -860px;
+		color: white;
+		text-align: center;
+		&-Haut{
+			font-size: 72px;
+			width: 400px;
+		}
+	}
+	&-WhiteSquare{
+		height: 40px;
+		width: 40px;
+		background-color: white;
+		position: absolute;
+		left: 72%;
+		bottom: -880px;
+	}
+	&-Thumb{
+		width: 340px;
+		padding: 25px;
+		position: relative;
+		top: 200px;
+		left: 80px;
+		z-index: 2;
+		background-color: white;
+		&-Text{
+			position: relative;
+			bottom: 30px;
+			font-weight: bold;
+			font-family: "Gotham";
+		}
+		&-traitrose{
+			height: 3px;
+			width: 30px;
+			background-color: #F6C3AE;
+			position: relative;
+			bottom: 25px;
+		}
+		&-EuroFleche{
+			display: flex;
+			justify-content: space-between;
+			&-Euro{
+				font-family: "Gotham Light";
+			}
+		}
+	}
+	&-Thumb2{
+		width: 240px;
+		position: absolute;
+		left: 80%;
+		bottom: -600px;
+		z-index: 2;
+		background-color: white;
+		&-Text{
+			position: relative;
+			bottom: 30px;
+			font-weight: bold;
+			font-family: "Gotham";
+		}
+		&-traitrose{
+			height: 3px;
+			width: 30px;
+			background-color: #F6C3AE;
+			position: relative;
+			bottom: 25px;
+		}
+		&-EuroFleche{
+			display: flex;
+			justify-content: space-between;
+			&-Euro{
+				font-family: "Gotham Light";
+			}
+		}
+	}
+	&-Thumb3{
+		width: 240px;
+		position: absolute;
+		left: 80%;
+		bottom: -900px;
+		z-index: 2;
+		background-color: white;
+		&-Text{
+			position: relative;
+			bottom: 30px;
+			font-weight: bold;
+			font-family: "Gotham";
+		}
+		&-traitrose{
+			height: 3px;
+			width: 30px;
+			background-color: #F6C3AE;
+			position: relative;
+			bottom: 25px;
+		}
+		&-EuroFleche{
+			display: flex;
+			justify-content: space-between;
+			&-Euro{
+				font-family: "Gotham Light";
+			}
+		}
+	}
+	&-Femme{
+		margin-top: 150px;
+	}
+}
+
+.Section3{
+	&-decouvrez{
+		margin-top: 100px;
+		font-family: "Gotham Light";
+		margin-left: 150px;
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	&-bague{
+		margin-left: 150px;
+	}
+	&-ImgText{
+		display: flex;
+	}
+	&-Text{
+		margin-left: 110px;
+		margin-top: 100px;
+		&-Personnalisez{
+			margin-top: 30px;
+			font-size: 60px;
+			color: #A2998E;
+			width: 460px;
+			margin-bottom: 30px;
+		}
+		&-icon{
+			font-size: 40px;
+		}
+		&-Creez{
+			position: relative;
+			bottom: 10px;
+			font-family: "Gotham";
+		}
+
+	}
+	&-traitrose{
+		height: 6px;
+		width: 130px;
+		background-color: #F6C3AE;
+	}
+
+}
+
+.Section4{
+	height: 400px;
+	background-color: #EFDED7;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.Section5{
+	height: 200px;
+	background-color: #F6C4AE;
+	color: white;
+	padding: 50px 80px 50px 80px;
+	&-Top{
+		display: flex;
+		justify-content: space-between;
+	}
+	&-Title{
+		font-family: "BluuNext";
+		font-size: 55px;
+	}
+	&-Services{
+		&-Bold{
+			font-family: "Gotham";
+		}
+		&-Light{
+			font-family: "Gotham Light";
+			margin-top: 9px;
+		}
+	}
+	&-Apropos{
+		&-Bold{
+			font-family: "Gotham";
+		}
+		&-Light{
+			font-family: "Gotham Light";
+			margin-top: 9px;
+		}
+	}
+	&-Rejoignez{
+		
+		&-Bold{
+			text-align: right;
+			font-family: "Gotham";
+			margin-bottom: 10px;
+		}
+		&-Light{
+			text-align: right;
+			font-family: "Gotham Light";
+		}
+		&-Input{
+			margin-top: 15px;
+			border: 1px solid white;
+			height: 30px;
+			border-radius: 50px;
+			width: 300px
+		}
+		&-Button{
+			height: 34px;
+			border-radius: 50px;
+			border: 1px solid #EFDED7;
+			background-color: #EFDED7;
+			position: relative;
+			top: 1px;
+			z-index: 2;
+			right: 90px;
+			font-family: "Gotham";
+			color: #A2998E;
+		}
+	}
+	&-Bottom{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 50px;
+		&-Social{
+			font-size: 28px;
+		}
+	}
+}
