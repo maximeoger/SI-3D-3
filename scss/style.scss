@@ -7,11 +7,14 @@
        background-color: #B4B2B2;
        opacity: 0.8;
        display: none;
-       &-buttonRight{
+       &-button-Right{
          margin-left: 70%;
        }
-       &-buttonLeft{
-         margin-left: 50%;
+       &-button-Left{
+         margin-left: 70%;
+       }
+       &-button{
+         display: flex;
        }
      }
 }

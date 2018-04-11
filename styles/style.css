@@ -7,10 +7,12 @@
     background-color: #B4B2B2;
     opacity: 0.8;
     display: none; }
-    .Tunnel-pages-buttonRight {
+    .Tunnel-pages-button-Right {
       margin-left: 70%; }
-    .Tunnel-pages-buttonLeft {
-      margin-left: 50%; }
+    .Tunnel-pages-button-Left {
+      margin-left: 70%; }
+    .Tunnel-pages-button {
+      display: flex; }
 
 .is-active {
   display: block;
