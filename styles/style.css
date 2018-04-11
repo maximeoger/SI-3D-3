@@ -1,19 +1,32 @@
-.Tunnel {
-  margin-top: 50px; }
-  .Tunnel-pages {
-    border: 1px solid;
-    width: 700px;
-    height: 500px;
-    background-color: #B4B2B2;
-    opacity: 0.8;
-    display: none; }
-    .Tunnel-pages-button-Right {
-      margin-left: 70%; }
-    .Tunnel-pages-button-Left {
-      margin-left: 70%; }
-    .Tunnel-pages-button {
-      display: flex; }
+.Tunnel-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+
+.Tunnel-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  z-index: -1;
+  background: black; }
+
+.Tunnel-pagesContainer {
+  position: absolute;
+  z-index: 20;
+  left: calc(50% - 350px);
+  top: calc(50% - 250px); }
+
+.Tunnel-pages {
+  border: 1px solid;
+  width: 700px;
+  height: 500px;
+  background-color: #EFEFEF;
+  display: none; }
+
+.Tunnel-pagesTitle {
+  font-size: 18px;
+  padding-bottom: 50px; }
 
 .is-active {
-  display: block;
-  margin-left: 23%; }
+  display: block; }
