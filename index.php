@@ -13,11 +13,8 @@
     <?php include 'includes/accueil.php'; ?>
     <?php include 'includes/footer.php'; ?>
 
-    <?php
-    /*
-    include 'includes/tunnel.php';
-    */
-    ?>
-    <script src="scripts.js"></script>
+    <script src="scripts.js">
+        console.log('coucou');
+    </script>
 </body>
 </html>

@@ -38,7 +38,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		background-color: #343B3B;
+		background: linear-gradient(#C3DBC5, #7798AB);
+
 		height: 50px;
 		font-family: "Gotham Black";
 		}
@@ -501,3 +502,58 @@
 		}
 	}
 }
+
+
+body{
+	font-family: montserrat;
+}
+
+.Tunnel {
+
+	&-container {
+		background: linear-gradient(#C3DBC5, #7798AB);
+	}
+	&-pagesContainer {
+		width: 630px;
+		margin: 0 auto;
+	}
+	&-pages{
+
+		padding: 52px ;
+	}
+	&-pagesTitle{
+		font-size: 24px;
+		font-family: 'Raleway', sans-serif;
+		text-transform: uppercase;
+		color: #ffffff;
+		text-align: center;
+	}
+	&-ringField {
+		width: 150px;
+		height: 160px;
+		background-color: #FFF;
+		position: absolute;
+		margin-top: -12%;
+	}
+}
+.is-active{
+ display: block;
+}
+
+.parent{
+  margin-left: 22%;
+}
+span{
+  margin-left: 22%;
+  font-weight: bold;
+}
+
+
+.Render{
+
+	&-container{
+		margin: 0 auto;
+		background: lightgrey;
+	}
+}
+
