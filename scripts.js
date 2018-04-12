@@ -4,7 +4,7 @@ var buttonsLeft = document.querySelectorAll('.Tunnel-pages-button-Left');
 var inputs = document.querySelectorAll('input');
 var index = 0;
 
-//var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
+var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
 
 
   for (var i = 0; i < buttonsRight.length; i++) {

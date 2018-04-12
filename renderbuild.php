@@ -17,11 +17,11 @@
 
 <div class="Render">
     <div class="Render-container">
-        <div id="gameContainer" style="width: 960px; height: 600px"></div>
+        <div id="gameContainer" style="width: 1440px; height: 700px"></div>
     </div>
 </div>
 
-<?php include 'includes/tunnel.php'; ?>
+
 
 <script src="TemplateData/UnityProgress.js"></script>
 <script src="Build/UnityLoader.js"></script>

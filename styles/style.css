@@ -30,7 +30,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #F6C4AE;
+  background: linear-gradient(#C3DBC5, #7798AB);
   height: 50px;
   font-family: "Gotham Black"; }
 
@@ -282,7 +282,6 @@ body {
   background: linear-gradient(#C3DBC5, #7798AB); }
 
 .Tunnel-pagesContainer {
-  height: 494px;
   width: 630px;
   margin: 0 auto; }
 
@@ -314,7 +313,5 @@ span {
   font-weight: bold; }
 
 .Render-container {
-  height: 600px;
-  width: 960px;
   margin: 0 auto;
   background: lightgrey; }
