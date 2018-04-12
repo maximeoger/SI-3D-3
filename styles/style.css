@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/GOTHAM-BOLD.TTF"); }
@@ -274,3 +275,172 @@
     margin-top: 50px; }
     .Section5-Bottom-Social {
       font-size: 28px; }
+
+body {
+  font-family: montserrat; }
+
+.Tunnel-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+
+.Tunnel-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  z-index: -1;
+  background: black; }
+
+.Tunnel-pagesContainer {
+  position: absolute;
+  z-index: 20;
+  margin-left: 5%;
+  margin-top: 5%; }
+
+.Tunnel-ringField {
+  width: 150px;
+  height: 160px;
+  background-color: #FFF;
+  margin-left: 30%;
+  position: absolute;
+  margin-top: -12%; }
+
+.Tunnel-pages {
+  border: 1px solid;
+  width: 80vw;
+  height: 85vh;
+  background-color: #EFDED7;
+  display: none; }
+  .Tunnel-pages-button-Right {
+    background-color: #894D4D;
+    margin: 0.4em auto;
+    margin-left: 26%;
+    width: 154px;
+    height: 64px;
+    border: #cecece;
+    border-radius: 55px;
+    outline: none;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 20px; }
+  .Tunnel-pages-button-Right:hover {
+    background-color: #703A3A; }
+  .Tunnel-pages-button-Left {
+    background-color: #894D4D;
+    margin: 0.4em auto;
+    margin-left: 8%;
+    width: 154px;
+    height: 64px;
+    border: #cecece;
+    border-radius: 55px;
+    outline: none;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 20px; }
+  .Tunnel-pages-button-Left:hover {
+    background-color: #703A3A; }
+  .Tunnel-pages-prices {
+    font-family: montserrat;
+    color: #A2998E;
+    font-size: 20px;
+    margin: 0.3em auto;
+    margin-left: 46%; }
+
+.Tunnel-validateField {
+  position: relative;
+  margin-top: -1.5%;
+  width: 470px;
+  height: 64px;
+  border-radius: 45px;
+  margin-left: 33%; }
+
+.Tunnel-input-prices {
+  font-size: 20px;
+  width: 42%;
+  height: 60px;
+  border-radius: 55px;
+  outline: none;
+  border: #cecece;
+  margin: 1em auto;
+  margin-left: 30%;
+  margin-top: -1%; }
+
+.Tunnel-pagesTitle {
+  position: relative;
+  text-align: center;
+  margin-top: 5%; }
+
+.Tunnel-input-one {
+  font-size: 20px;
+  width: 35.5%;
+  height: 60px;
+  border-radius: 55px;
+  outline: none;
+  border: #cecece;
+  margin: 2em auto; }
+
+.Tunnel-input-two {
+  font-size: 20px;
+  width: 35.5%;
+  height: 60px;
+  border-radius: 55px;
+  outline: none;
+  border: #cecece;
+  margin: 1em auto; }
+  .Tunnel-input-two-left {
+    width: 35.5%;
+    height: 60px;
+    border-radius: 55px;
+    margin-left: 3%;
+    outline: none;
+    border: #cecece; }
+
+.Tunnel-input-two-big {
+  font-size: 20px;
+  width: 74%;
+  height: 60px;
+  border-radius: 55px;
+  outline: none;
+  border: #cecece;
+  margin: 1em auto; }
+
+.Tunnel-pagesTitle {
+  font-size: 18px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  color: #A2998E;
+  font-weight: bold; }
+
+.Tunnel-label-one {
+  color: #FFF;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 2%; }
+
+.Tunnel-label-two {
+  color: #FFF;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 2%; }
+  .Tunnel-label-two-left {
+    color: #FFF;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 5%; }
+  .Tunnel-label-two-three {
+    color: red; }
+
+.is-active {
+  display: block; }
+
+.parent {
+  margin-left: 22%; }
+
+span {
+  margin-left: 22%;
+  font-weight: bold; }
+
