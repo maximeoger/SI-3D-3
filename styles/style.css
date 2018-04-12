@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "Gotham";
   src: url("../fonts/GOTHAM-BOLD.TTF"); }
@@ -31,7 +30,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #F6C4AE;
+  background-color: #343B3B;
   height: 50px;
   font-family: "Gotham Black"; }
 
@@ -42,17 +41,23 @@
   .Header-Langues-item {
     list-style-type: none;
     margin-right: 10px; }
+    .Header-Langues-item-fr {
+      color: white;
+      margin-right: 10px; }
 
 .Header-Link {
   color: #8B867F;
-  text-decoration: none; }
+  text-decoration: none;
+  margin-left: 10px; }
 
 .Header-Bonjour {
   color: white;
   margin-right: 80px; }
+  .Header-Bonjour-img {
+    margin-left: 10px; }
 
 .Header-bottom {
-  background-color: #EFDED7;
+  background-color: #7698AB;
   display: flex;
   justify-content: space-between;
   height: 100px;
@@ -69,51 +74,113 @@
     margin-right: 80px; }
     .Header-bottom-Liste-item {
       margin-left: 50px; }
+      .Header-bottom-Liste-item-link {
+        text-decoration: none;
+        color: white; }
 
 .Section1-image {
-  width: 100vw; }
+  width: 100%; }
+
+.Section1-text {
+  position: absolute;
+  bottom: 180px;
+  left: 47%;
+  width: 710px; }
+  .Section1-text-title {
+    font-size: 68px;
+    color: white;
+    font-family: "Anglecia"; }
+  .Section1-text-div {
+    display: flex;
+    align-items: center;
+    margin-top: 60px; }
+    .Section1-text-div-link {
+      font-family: "Gotham";
+      font-size: 22px;
+      color: #282C2D;
+      text-decoration: none;
+      margin-left: 45px; }
+  .Section1-text-subtitle {
+    font-size: 32px;
+    color: white;
+    font-family: "Anglecia";
+    margin-left: 80px; }
+
+.Section2-upside {
+  font-size: 30px;
+  font-family: "Gotham Light";
+  width: 150px;
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  top: 800px;
+  margin-right: 400px; }
+
+.Section2-upside2 {
+  font-size: 30px;
+  font-family: "Gotham";
+  width: 150px;
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  top: 1020px;
+  z-index: 4;
+  color: white; }
 
 .Section2-Main {
-  background-color: #F6C4AE;
+  background-color: #343B3B;
   height: 550px;
   width: 500px;
   position: absolute;
   bottom: -900px;
-  left: 39%; }
+  left: 36%; }
 
 .Section2-MainImg {
   position: absolute;
-  bottom: -750px;
-  left: 37%;
-  width: 460px; }
+  bottom: -630px;
+  left: 34%;
+  z-index: 4; }
 
 .Section2-MainText {
   position: absolute;
   z-index: 3;
-  left: 43%;
-  bottom: -860px;
+  left: 40%;
+  bottom: -790px;
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-family: "Anglecia"; }
   .Section2-MainText-Haut {
     font-size: 72px;
     width: 400px; }
 
-.Section2-WhiteSquare {
-  height: 40px;
-  width: 40px;
-  background-color: white;
+.Section2-WhiteArrow {
   position: absolute;
-  left: 72%;
-  bottom: -880px; }
+  left: 69%;
+  bottom: -880px;
+  z-index: 5; }
+
+.Section2-ArrowText {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  bottom: -1050px;
+  left: 53%;
+  align-items: center; }
+  .Section2-ArrowText-Text {
+    font-family: "Gotham";
+    margin-left: 20px;
+    color: white; }
 
 .Section2-Thumb {
-  width: 340px;
+  width: 320px;
   padding: 25px;
   position: relative;
   top: 200px;
   left: 80px;
   z-index: 2;
   background-color: white; }
+  .Section2-Thumb-BlackSwan {
+    margin-bottom: 50px; }
   .Section2-Thumb-Text {
     position: relative;
     bottom: 30px;
@@ -134,10 +201,12 @@
 .Section2-Thumb2 {
   width: 240px;
   position: absolute;
-  left: 80%;
+  left: 76%;
   bottom: -600px;
   z-index: 2;
   background-color: white; }
+  .Section2-Thumb2-BlackSwan {
+    margin-bottom: 50px; }
   .Section2-Thumb2-Text {
     position: relative;
     bottom: 30px;
@@ -158,10 +227,12 @@
 .Section2-Thumb3 {
   width: 240px;
   position: absolute;
-  left: 80%;
+  left: 76%;
   bottom: -900px;
   z-index: 2;
   background-color: white; }
+  .Section2-Thumb3-BlackSwan {
+    margin-bottom: 50px; }
   .Section2-Thumb3-Text {
     position: relative;
     bottom: 30px;
@@ -185,12 +256,12 @@
 .Section3-decouvrez {
   margin-top: 100px;
   font-family: "Gotham Light";
-  margin-left: 150px;
+  margin-left: 250px;
   font-size: 30px;
   margin-bottom: 30px; }
 
 .Section3-bague {
-  margin-left: 150px; }
+  margin-left: 250px; }
 
 .Section3-ImgText {
   display: flex; }
@@ -209,7 +280,10 @@
   .Section3-Text-Creez {
     position: relative;
     bottom: 10px;
-    font-family: "Gotham"; }
+    font-family: "Gotham";
+    text-decoration: none;
+    color: black;
+    margin-left: 30px; }
 
 .Section3-traitrose {
   height: 6px;
@@ -217,16 +291,33 @@
   background-color: #F6C3AE; }
 
 .Section4 {
+  margin-top: 100px;
   height: 400px;
-  background-color: #EFDED7;
+  background-color: #7698AB;
   display: flex;
   justify-content: space-between;
-  padding-right: 10%;
-  padding-left: 10%; }
+  text-align: center; }
+  .Section4-img {
+    width: 100%;
+    height: 350px; }
+  .Section4-div-circle {
+    height: 250px;
+    width: 250px;
+    background-color: #353B3B;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    margin-top: 50px; }
+    .Section4-div-circle-img {
+      margin-top: 75px; }
+    .Section4-div-circle-imglast {
+      margin-top: 95px; }
+  .Section4-div-text {
+    font-family: "Gotham";
+    color: #282C2D; }
 
 .Section5 {
   height: 200px;
-  background-color: #F6C4AE;
+  background-color: #353B3B;
   color: white;
   padding: 50px 80px 50px 80px; }
   .Section5-Top {
@@ -235,6 +326,32 @@
   .Section5-Title {
     font-family: "BluuNext";
     font-size: 55px; }
+  .Section5-RingText-Top-1 {
+    position: relative;
+    font-family: "Gotham";
+    font-size: 30px;
+    bottom: 80px;
+    left: 10px; }
+  .Section5-RingText-Top-8 {
+    position: relative;
+    font-family: "Gotham";
+    font-size: 30px;
+    bottom: 40px;
+    right: 8px; }
+  .Section5-RingText-Top-2 {
+    font-family: "Gotham";
+    font-size: 30px;
+    position: relative;
+    right: 31px; }
+  .Section5-RingText-Bottom {
+    width: 150px;
+    font-family: "Gotham";
+    margin-top: 10px; }
+    .Section5-RingText-Bottom-Top {
+      font-size: 26px; }
+    .Section5-RingText-Bottom-Bottom {
+      font-size: 21px;
+      text-align: center; }
   .Section5-Services-Bold {
     font-family: "Gotham"; }
   .Section5-Services-Light {
@@ -257,190 +374,28 @@
     border: 1px solid white;
     height: 30px;
     border-radius: 50px;
-    width: 300px; }
+    width: 300px;
+    position: relative;
+    left: 90px;
+    font-family: "Gotham Light";
+    color: #8B867F; }
   .Section5-Rejoignez-Button {
     height: 34px;
     border-radius: 50px;
-    border: 1px solid #EFDED7;
-    background-color: #EFDED7;
+    border: 1px solid #7698AB;
+    background-color: #7698AB;
     position: relative;
-    top: 1px;
     z-index: 2;
-    right: 90px;
     font-family: "Gotham";
-    color: #A2998E; }
+    color: white; }
   .Section5-Bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 50px; }
+    .Section5-Bottom-date {
+      font-family: "Gotham"; }
     .Section5-Bottom-Social {
-      font-size: 28px; }
-
-body {
-  font-family: montserrat; }
-
-.Tunnel-container {
-  position: relative;
-  width: 100vw;
-  height: 100vh; }
-
-.Tunnel-overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  opacity: 0.8;
-  z-index: -1;
-  background: black; }
-
-.Tunnel-pagesContainer {
-  position: absolute;
-  z-index: 20;
-  margin-left: 5%;
-  margin-top: 5%; }
-
-.Tunnel-ringField {
-  width: 150px;
-  height: 160px;
-  background-color: #FFF;
-  margin-left: 30%;
-  position: absolute;
-  margin-top: -12%; }
-
-.Tunnel-pages {
-  border: 1px solid;
-  width: 80vw;
-  height: 85vh;
-  background-color: #EFDED7;
-  display: none; }
-  .Tunnel-pages-button-Right {
-    background-color: #894D4D;
-    margin: 0.4em auto;
-    margin-left: 26%;
-    width: 154px;
-    height: 64px;
-    border: #cecece;
-    border-radius: 55px;
-    outline: none;
-    font-family: montserrat;
-    font-weight: bold;
-    font-size: 20px; }
-  .Tunnel-pages-button-Right:hover {
-    background-color: #703A3A; }
-  .Tunnel-pages-button-Left {
-    background-color: #894D4D;
-    margin: 0.4em auto;
-    margin-left: 8%;
-    width: 154px;
-    height: 64px;
-    border: #cecece;
-    border-radius: 55px;
-    outline: none;
-    font-family: montserrat;
-    font-weight: bold;
-    font-size: 20px; }
-  .Tunnel-pages-button-Left:hover {
-    background-color: #703A3A; }
-  .Tunnel-pages-prices {
-    font-family: montserrat;
-    color: #A2998E;
-    font-size: 20px;
-    margin: 0.3em auto;
-    margin-left: 46%; }
-
-.Tunnel-validateField {
-  position: relative;
-  margin-top: -1.5%;
-  width: 470px;
-  height: 64px;
-  border-radius: 45px;
-  margin-left: 33%; }
-
-.Tunnel-input-prices {
-  font-size: 20px;
-  width: 42%;
-  height: 60px;
-  border-radius: 55px;
-  outline: none;
-  border: #cecece;
-  margin: 1em auto;
-  margin-left: 30%;
-  margin-top: -1%; }
-
-.Tunnel-pagesTitle {
-  position: relative;
-  text-align: center;
-  margin-top: 5%; }
-
-.Tunnel-input-one {
-  font-size: 20px;
-  width: 35.5%;
-  height: 60px;
-  border-radius: 55px;
-  outline: none;
-  border: #cecece;
-  margin: 2em auto; }
-
-.Tunnel-input-two {
-  font-size: 20px;
-  width: 35.5%;
-  height: 60px;
-  border-radius: 55px;
-  outline: none;
-  border: #cecece;
-  margin: 1em auto; }
-  .Tunnel-input-two-left {
-    width: 35.5%;
-    height: 60px;
-    border-radius: 55px;
-    margin-left: 3%;
-    outline: none;
-    border: #cecece; }
-
-.Tunnel-input-two-big {
-  font-size: 20px;
-  width: 74%;
-  height: 60px;
-  border-radius: 55px;
-  outline: none;
-  border: #cecece;
-  margin: 1em auto; }
-
-.Tunnel-pagesTitle {
-  font-size: 18px;
-  padding-bottom: 50px;
-  font-size: 24px;
-  color: #A2998E;
-  font-weight: bold; }
-
-.Tunnel-label-one {
-  color: #FFF;
-  font-weight: bold;
-  position: absolute;
-  margin-top: 1%;
-  margin-left: 2%; }
-
-.Tunnel-label-two {
-  color: #FFF;
-  font-weight: bold;
-  position: absolute;
-  margin-top: 0%;
-  margin-left: 2%; }
-  .Tunnel-label-two-left {
-    color: #FFF;
-    font-weight: bold;
-    position: absolute;
-    margin-top: 0%;
-    margin-left: 5%; }
-  .Tunnel-label-two-three {
-    color: red; }
-
-.is-active {
-  display: block; }
-
-.parent {
-  margin-left: 22%; }
-
-span {
-  margin-left: 22%;
-  font-weight: bold; }
-
+      position: relative;
+      bottom: 50px; }
+      .Section5-Bottom-Social-item {
+        margin-left: 10px; }
