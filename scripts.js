@@ -4,7 +4,7 @@ var buttonsLeft = document.querySelectorAll('.Tunnel-pages-button-Left');
 var inputs = document.querySelectorAll('input');
 var index = 0;
 
-var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
+//var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});
 
 
   for (var i = 0; i < buttonsRight.length; i++) {
@@ -29,3 +29,18 @@ var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", 
     tunnel_pages[index].classList.add('is-active');
   });
  }
+
+ function GetObject(obj1, obj2, obj3, obj4) {
+
+     var Items = {
+         Ring : obj1,
+         RingColor : obj2,
+         Ornement : obj3,
+         OrnementColor : obj4
+     }
+
+     console.log(Items.Ring, Items.RingColor, Items.Ornement, Items.OrnementColor);
+ }
+
+
+

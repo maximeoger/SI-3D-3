@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="stylesheet" href="styles/style.css">
     <title>renderBuild</title>
-
 </head>
 
 <body>
@@ -20,6 +19,8 @@
         <div id="gameContainer" style="width: 1440px; height: 700px"></div>
     </div>
 </div>
+
+<?php include 'includes/tunnel.php'; ?>
 
 <script src="TemplateData/UnityProgress.js"></script>
 <script src="Build/UnityLoader.js"></script>
