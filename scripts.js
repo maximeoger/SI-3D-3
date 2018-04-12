@@ -30,7 +30,7 @@ var index = 0;
   });
  }
 
- function GetObject(obj1, obj2, obj3, obj4) {
+ function GetInfo(obj1, obj2, obj3, obj4) {
 
      var Items = {
          Ring : obj1,
@@ -41,6 +41,7 @@ var index = 0;
 
      console.log(Items.Ring, Items.RingColor, Items.Ornement, Items.OrnementColor);
  }
+
 
 
 
