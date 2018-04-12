@@ -7,4 +7,11 @@ A week to convince !
 • As a driver of attractiveness
 • As a driver of loyalty</p>
 <p><strong>Given 3D Content :</strong>Whimsy rings configurator in real time 3D</p>
-https://github.com/HETIC
+
+<a href="https://github.com/joetxa">José TEIXEIRA</a>
+<a href="https://github.com/maximeoger">Maxime OGER</a>
+<a href="https://github.com/SophiiG">Sophia GOUNANI</a>
+<a href="https://github.com/Nogao">Antoine DEPAIX</a>
+<a href="https://github.com/Vayi05">Brahim MAHIOUS</a>
+<a href="https://github.com/SophieChieko">Sophie MEMEINT</a>
+
