@@ -1,5 +1,6 @@
 # Sokaris
-## Fifth Intensive Week @HETIC (Collaboration between Web Bachelors & 3D Bachelors.)
+## Fifth Intensive Week @HETIC
+## (Collaboration between Web Bachelors & 3D Bachelors.)
 A week to convince !
 
 <p><strong>Context :</strong>Answer a call for projects from Unity and try to win a subvention support</p>
