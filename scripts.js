@@ -8,7 +8,6 @@ var inputs = document.querySelectorAll('input');
 
   for (var i = 0; i < buttonsRight.length; i++) {
     buttonsRight[i].addEventListener('click', function() {
-      console.log('hiii');
       tunnel_pages[index].classList.remove('is-active');
       index++;
       tunnel_pages[index].classList.add('is-active');
