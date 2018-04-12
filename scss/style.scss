@@ -530,4 +530,11 @@ span{
   margin-left: 22%;
   font-weight: bold;
 }
-
+.Render{
+	&-container{
+		height: 600px;
+		width: 960px;
+		margin: 0 auto;
+		background: lightgrey;
+	}
+}

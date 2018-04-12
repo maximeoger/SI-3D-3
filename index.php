@@ -13,11 +13,7 @@
     <?php include 'includes/accueil.php'; ?>
     <?php include 'includes/footer.php'; ?>
 
-    <?php
-    /*
-    include 'includes/tunnel.php';
-    */
-    ?>
+
     <script src="scripts.js"></script>
 </body>
 </html>
