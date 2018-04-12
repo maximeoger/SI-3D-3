@@ -26,6 +26,10 @@
   font-family: "BluuNext";
   src: url("../fonts/BluuNext-Bold.otf"); }
 
+.fas {
+  margin-right: 10px;
+}
+
 .Header-top {
   display: flex;
   justify-content: space-between;
@@ -102,14 +106,15 @@
       text-decoration: none;
       margin-left: 45px; }
   .Section1-text-subtitle {
-    font-size: 32px;
+    font-size: 30px;
     color: white;
     font-family: "Anglecia";
     margin-left: 80px; }
 
 .Section2-upside {
+  z-index: 78;
   font-size: 30px;
-  font-family: "Gotham Light";
+  font-family: "Gotham-Light";
   width: 150px;
   position: absolute;
   writing-mode: vertical-rl;
@@ -119,13 +124,14 @@
 
 .Section2-upside2 {
   font-size: 30px;
-  font-family: "Gotham";
+  font-family: "Gotham-Light";
   width: 150px;
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: sideways;
-  top: 1020px;
-  z-index: 4;
+  margin-top: 1100px;
+  margin-left: 150px;
+  z-index: 99;
   color: white; }
 
 .Section2-Main {
@@ -190,8 +196,9 @@
   .Section2-Thumb-traitrose {
     height: 3px;
     width: 30px;
-    background-color: #F6C3AE;
+    background-color: #7798AB;
     position: relative;
+    margin-left: 10px;
     bottom: 25px; }
   .Section2-Thumb-EuroFleche {
     display: flex;
@@ -200,6 +207,7 @@
       font-family: "Gotham Light"; }
 
 .Section2-Thumb2 {
+  box-shadow: 0px 15px 20px #eaeaea;
   width: 240px;
   position: absolute;
   left: 76%;
@@ -211,21 +219,25 @@
   .Section2-Thumb2-Text {
     position: relative;
     bottom: 30px;
+    margin-left: 15px;
     font-weight: bold;
     font-family: "Gotham"; }
   .Section2-Thumb2-traitrose {
+    margin-left: 12px;
     height: 3px;
     width: 30px;
-    background-color: #F6C3AE;
+    background-color: #7798AB;
     position: relative;
     bottom: 25px; }
   .Section2-Thumb2-EuroFleche {
     display: flex;
     justify-content: space-between; }
     .Section2-Thumb2-EuroFleche-Euro {
+      margin-left: 10px;
       font-family: "Gotham Light"; }
 
 .Section2-Thumb3 {
+  box-shadow: 0px 15px 20px #eaeaea;
   width: 240px;
   position: absolute;
   left: 76%;
@@ -233,22 +245,26 @@
   z-index: 2;
   background-color: white; }
   .Section2-Thumb3-BlackSwan {
+    width: 200px;
+    height: 171px;
     margin-bottom: 50px; }
   .Section2-Thumb3-Text {
     position: relative;
+    margin-left: 15px;
     bottom: 30px;
     font-weight: bold;
     font-family: "Gotham"; }
   .Section2-Thumb3-traitrose {
     height: 3px;
     width: 30px;
-    background-color: #F6C3AE;
+    background-color: #7798AB;
     position: relative;
     bottom: 25px; }
   .Section2-Thumb3-EuroFleche {
     display: flex;
     justify-content: space-between; }
     .Section2-Thumb3-EuroFleche-Euro {
+      margin-left: 15px;
       font-family: "Gotham Light"; }
 
 .Section2-Femme {
@@ -289,7 +305,7 @@
 .Section3-traitrose {
   height: 6px;
   width: 130px;
-  background-color: #F6C3AE; }
+  background-color: #7798AB; }
 
 .Section4 {
   margin-top: 100px;
@@ -445,3 +461,44 @@ span {
       .Section5-Bottom-Social-item {
         margin-left: 10px; }
 
+.Carousel {
+  margin-top: 70px;
+  height: 400px;
+  width: 100%;
+}
+  .Carousel-Feel {
+    font-family: 'Gotham-Light';
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-size: 30px;
+    margin-left: 65px;
+  }
+  .Carousel-JoinUs {
+    font-family: 'Gotham-Light';
+    font-size: 23px;
+    padding-left:200px;
+    margin-top: -170px;
+    align-items: center;
+    display: flex;
+  }
+  .Carousel-ArrowPosts {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 67px;
+    height: 200px;
+  }
+  .Carousel-Posts{
+    font-family: 'Gotham-Bold';
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  .Carousel-InstaRadius {
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 360px;
+    margin-left: 400px;
+    margin-bottom: 140px;
+  }
