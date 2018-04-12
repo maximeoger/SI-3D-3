@@ -21,8 +21,6 @@
     </div>
 </div>
 
-
-
 <script src="TemplateData/UnityProgress.js"></script>
 <script src="Build/UnityLoader.js"></script>
 <script src="scripts.js"></script>
