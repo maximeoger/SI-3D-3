@@ -9,9 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-
     <?php include 'includes/tunnel.php'; ?>
-
     <script src="scripts.js"></script>
 </body>
 </html>
