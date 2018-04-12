@@ -31,7 +31,6 @@
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(#C3DBC5, #7798AB);
-
   height: 50px;
   font-family: "Gotham Black"; }
 
@@ -396,8 +395,10 @@
     .Section5-Bottom-date {
       font-family: "Gotham"; }
     .Section5-Bottom-Social {
-
-      font-size: 28px; }
+      position: relative;
+      bottom: 50px; }
+      .Section5-Bottom-Social-item {
+        margin-left: 10px; }
 
 body {
   font-family: montserrat; }
@@ -439,9 +440,3 @@ span {
 .Render-container {
   margin: 0 auto;
   background: lightgrey; }
-
-      position: relative;
-      bottom: 50px; }
-      .Section5-Bottom-Social-item {
-        margin-left: 10px; }
-

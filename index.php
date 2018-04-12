@@ -13,8 +13,6 @@
     <?php include 'includes/accueil.php'; ?>
     <?php include 'includes/footer.php'; ?>
 
-    <script src="scripts.js">
-        console.log('coucou');
-    </script>
+    <script src="scripts.js"></script>
 </body>
 </html>

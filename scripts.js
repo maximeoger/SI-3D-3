@@ -31,7 +31,11 @@ var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", 
  }
 
  function GetInfo(data) {
-      console.log(Items.Ring, Items.RingColor, Items.Ornement, Items.OrnementColor);
+      console.log(
+          Items.Ring,
+          Items.RingColor,
+          Items.Ornement,
+          Items.OrnementColor);
  }
 
 
