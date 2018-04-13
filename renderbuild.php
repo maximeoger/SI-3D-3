@@ -12,19 +12,22 @@
 </head>
 
 <body>
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/header.php'?>
 
 <div class="Render">
     <div class="Render-container">
-        <div id="gameContainer" style="width: 1440px; height: 700px"></div>
+        <div id="gameContainer" style="width: 1280px; height: 720px"></div>
     </div>
 </div>
 
-<?php include 'includes/tunnel.php'; ?>
+
+<?php include 'includes/tunnel.php'?>
+
 
 <script src="TemplateData/UnityProgress.js"></script>
 <script src="Build/UnityLoader.js"></script>
 <script src="scripts.js"></script>
+
 </body>
 </html>
 

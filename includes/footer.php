@@ -37,10 +37,10 @@
         <div class="Section5-Bottom">
             <span class="Section5-Bottom-date">&copy; 2018</span>
             <div class="Section5-Bottom-Social">
-                <img class="Section5-Bottom-Social-item" src="img/facebook">
-                <img class="Section5-Bottom-Social-item" src="img/linkedin">
-                <img class="Section5-Bottom-Social-item" src="img/instagram">
-                <img class="Section5-Bottom-Social-item" src="img/twitter">
+                <img class="Section5-Bottom-Social-item" src="../img/facebook.png">
+                <img class="Section5-Bottom-Social-item" src="../img/linkedin.png">
+                <img class="Section5-Bottom-Social-item" src="../img/instagram.png">
+                <img class="Section5-Bottom-Social-item" src="../img/twitter.png">
             </div>
         </div>
 

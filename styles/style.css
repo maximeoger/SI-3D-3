@@ -1,38 +1,40 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Gotham";
-  src: url("../fonts/GOTHAM-BOLD.TTF"); }
+  src: url("./fonts/GOTHAM-BOLD.TTF"); }
 
 @font-face {
   font-family: "Anglecia";
-  src: url("../fonts/Anglecia-Pro-Text-Regular.otf"); }
+  src: url("./fonts/Anglecia-Pro-Text-Regular.otf"); }
 
 @font-face {
-  font-family: "Gotham Black";
-  src: url("../fonts/GOTHAM-BLACK.TTF"); }
+  font-family: "Gotham-Black";
+  src: url("./fonts/GOTHAM-BLACK.TTF"); }
 
 @font-face {
-  font-family: "Gotham Book";
-  src: url("../fonts/Gotham-Book.otf"); }
+  font-family: "Gotham-Book";
+  src: url("./fonts/Gotham-Book.otf"); }
 
 @font-face {
-  font-family: "Gotham Light";
-  src: url("../fonts/GOTHAM-LIGHT.TTF"); }
+  font-family: "Gotham-Light";
+  src: url("./fonts/GOTHAM-LIGHT.TTF"); }
 
 @font-face {
-  font-family: "Gotham Medium";
-  src: url("../fonts/gotham/Gotham-Medium.otf"); }
+  font-family: "Gotham-Medium";
+  src: url("./fonts/gotham/Gotham-Medium.otf"); }
 
 @font-face {
   font-family: "BluuNext";
-  src: url("../fonts/BluuNext-Bold.otf"); }
+  src: url("./fonts/BluuNext-Bold.otf"); }
 
 .Header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(#C3DBC5, #7798AB);
+  background-color: #343B3B;
   height: 50px;
-  font-family: "Gotham Black"; }
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900; }
 
 .Header-Langues {
   display: flex;
@@ -61,11 +63,13 @@
   display: flex;
   justify-content: space-between;
   height: 100px;
-  font-family: "Gotham";
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   align-items: center; }
   .Header-bottom-Title {
     margin-left: 80px;
-    font-family: "BluuNext";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 55px;
     color: white; }
   .Header-bottom-Liste {
@@ -89,13 +93,14 @@
   .Section1-text-title {
     font-size: 68px;
     color: white;
-    font-family: "Anglecia"; }
+    font-family: "Anglecia", sans-serif; }
   .Section1-text-div {
     display: flex;
     align-items: center;
     margin-top: 60px; }
     .Section1-text-div-link {
-      font-family: "Gotham";
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
       font-size: 22px;
       color: #282C2D;
       text-decoration: none;
@@ -103,22 +108,26 @@
   .Section1-text-subtitle {
     font-size: 32px;
     color: white;
-    font-family: "Anglecia";
+    font-family: "Anglecia", sans-serif;
     margin-left: 80px; }
 
 .Section2-upside {
   font-size: 30px;
-  font-family: "Gotham Light";
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   width: 150px;
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: sideways;
-  top: 800px;
-  margin-right: 400px; }
+  top: 850px;
+  margin-right: 400px;
+  z-index: 100000;
+  left: 0; }
 
 .Section2-upside2 {
   font-size: 30px;
-  font-family: "Gotham";
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   width: 150px;
   position: absolute;
   writing-mode: vertical-rl;
@@ -148,7 +157,7 @@
   bottom: -790px;
   color: white;
   text-align: center;
-  font-family: "Anglecia"; }
+  font-family: "Anglecia", sans-serif; }
   .Section2-MainText-Haut {
     font-size: 72px;
     width: 400px; }
@@ -167,7 +176,8 @@
   left: 53%;
   align-items: center; }
   .Section2-ArrowText-Text {
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     margin-left: 20px;
     color: white; }
 
@@ -178,14 +188,16 @@
   top: 200px;
   left: 80px;
   z-index: 2;
-  background-color: white; }
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(200, 200, 200, 0.5); }
   .Section2-Thumb-BlackSwan {
     margin-bottom: 50px; }
   .Section2-Thumb-Text {
     position: relative;
     bottom: 30px;
     font-weight: bold;
-    font-family: "Gotham"; }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; }
   .Section2-Thumb-traitrose {
     height: 3px;
     width: 30px;
@@ -196,7 +208,8 @@
     display: flex;
     justify-content: space-between; }
     .Section2-Thumb-EuroFleche-Euro {
-      font-family: "Gotham Light"; }
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700; }
 
 .Section2-Thumb2 {
   width: 240px;
@@ -204,14 +217,17 @@
   left: 76%;
   bottom: -600px;
   z-index: 2;
-  background-color: white; }
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(200, 200, 200, 0.5);
+  padding: 20px; }
   .Section2-Thumb2-BlackSwan {
     margin-bottom: 50px; }
   .Section2-Thumb2-Text {
     position: relative;
     bottom: 30px;
     font-weight: bold;
-    font-family: "Gotham"; }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; }
   .Section2-Thumb2-traitrose {
     height: 3px;
     width: 30px;
@@ -222,22 +238,26 @@
     display: flex;
     justify-content: space-between; }
     .Section2-Thumb2-EuroFleche-Euro {
-      font-family: "Gotham Light"; }
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700; }
 
 .Section2-Thumb3 {
   width: 240px;
   position: absolute;
   left: 76%;
-  bottom: -900px;
+  bottom: -950px;
   z-index: 2;
-  background-color: white; }
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(200, 200, 200, 0.5);
+  padding: 20px; }
   .Section2-Thumb3-BlackSwan {
     margin-bottom: 50px; }
   .Section2-Thumb3-Text {
     position: relative;
     bottom: 30px;
     font-weight: bold;
-    font-family: "Gotham"; }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; }
   .Section2-Thumb3-traitrose {
     height: 3px;
     width: 30px;
@@ -248,14 +268,16 @@
     display: flex;
     justify-content: space-between; }
     .Section2-Thumb3-EuroFleche-Euro {
-      font-family: "Gotham Light"; }
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300; }
 
 .Section2-Femme {
   margin-top: 150px; }
 
 .Section3-decouvrez {
   margin-top: 100px;
-  font-family: "Gotham Light";
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   margin-left: 250px;
   font-size: 30px;
   margin-bottom: 30px; }
@@ -271,8 +293,10 @@
   margin-top: 100px; }
   .Section3-Text-Personnalisez {
     margin-top: 30px;
-    font-size: 60px;
+    font-size: 40px;
     color: #A2998E;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     width: 460px;
     margin-bottom: 30px; }
   .Section3-Text-icon {
@@ -280,7 +304,8 @@
   .Section3-Text-Creez {
     position: relative;
     bottom: 10px;
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     text-decoration: none;
     color: black;
     margin-left: 30px; }
@@ -312,7 +337,8 @@
     .Section4-div-circle-imglast {
       margin-top: 95px; }
   .Section4-div-text {
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color: #282C2D; }
 
 .Section5 {
@@ -324,28 +350,33 @@
     display: flex;
     justify-content: space-between; }
   .Section5-Title {
-    font-family: "BluuNext";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 55px; }
   .Section5-RingText-Top-1 {
     position: relative;
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 30px;
     bottom: 80px;
     left: 10px; }
   .Section5-RingText-Top-8 {
     position: relative;
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 30px;
     bottom: 40px;
     right: 8px; }
   .Section5-RingText-Top-2 {
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 30px;
     position: relative;
     right: 31px; }
   .Section5-RingText-Bottom {
     width: 150px;
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     margin-top: 10px; }
     .Section5-RingText-Bottom-Top {
       font-size: 26px; }
@@ -353,22 +384,28 @@
       font-size: 21px;
       text-align: center; }
   .Section5-Services-Bold {
-    font-family: "Gotham"; }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; }
   .Section5-Services-Light {
-    font-family: "Gotham Light";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     margin-top: 9px; }
   .Section5-Apropos-Bold {
-    font-family: "Gotham"; }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; }
   .Section5-Apropos-Light {
-    font-family: "Gotham Light";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     margin-top: 9px; }
   .Section5-Rejoignez-Bold {
     text-align: right;
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     margin-bottom: 10px; }
   .Section5-Rejoignez-Light {
     text-align: right;
-    font-family: "Gotham Light"; }
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; }
   .Section5-Rejoignez-Input {
     margin-top: 15px;
     border: 1px solid white;
@@ -377,7 +414,8 @@
     width: 300px;
     position: relative;
     left: 90px;
-    font-family: "Gotham Light";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     color: #8B867F; }
   .Section5-Rejoignez-Button {
     height: 34px;
@@ -386,57 +424,496 @@
     background-color: #7698AB;
     position: relative;
     z-index: 2;
-    font-family: "Gotham";
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color: white; }
   .Section5-Bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 50px; }
     .Section5-Bottom-date {
-      font-family: "Gotham"; }
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700; }
     .Section5-Bottom-Social {
       position: relative;
       bottom: 50px; }
       .Section5-Bottom-Social-item {
         margin-left: 10px; }
 
-body {
-  font-family: montserrat; }
+.Carousel {
+  width: 100vw;
+  margin-top: 50px;
+  overflow: hidden; }
+  .Carousel-container {
+    display: flex;
+    flex-direction: row; }
+  .Carousel-containerImg {
+    overflow: hidden;
+    height: 350px;
+    width: 350px;
+    margin: 0 13px; }
 
-.Tunnel-container {
-  background: linear-gradient(#C3DBC5, #7798AB); }
+.Tunnel {
+  background-color: #7798AB; }
+  .Tunnel-container {
+    padding: 0 250px; }
+  .Tunnel-pages {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 25px; }
+  .Tunnel-pagesTitle {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase; }
 
-.Tunnel-pagesContainer {
-  width: 630px;
-  margin: 0 auto; }
+.Recap {
+  margin-top: 48px; }
+  .Recap-container {
+    display: flex;
+    width: 600px;
+    margin: 0 auto; }
+  .Recap-imgContainer {
+    width: 200px;
+    height: 200px;
+    background: #fff; }
+  .Recap-table {
+    width: 350px;
+    margin-left: 50px;
+    height: 200px; }
+  .Recap-tableRow {
+    font-size: 18px; }
+  .Recap-tablePrice {
+    font-weight: 300;
+    text-align: right; }
+  .Recap-totalPrice {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: right;
+    float: right; }
+  .Recap-input {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px; }
+  .Recap-inputTitle {
+    margin-top: 51px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .Recap-inputRingname {
+    position: absolute;
+    z-index: 0;
+    height: 60px;
+    border: none;
+    padding-left: 30px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 300; }
+  .Recap-inputRingsubmit {
+    z-index: 10000;
+    position: absolute;
+    height: 62px;
+    border: none;
+    background: #C3DBC5;
+    border-radius: 30px;
+    width: 150px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    right: -31px;
+    cursor: pointer; }
 
-.Tunnel-pages {
-  padding: 52px; }
+.Cordonee-name {
+  margin-left: 20px;
+  margin-top: 30px; }
 
-.Tunnel-pagesTitle {
-  font-size: 24px;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-align: center; }
+.Cordonee-inputField {
+  margin-top: 15px;
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+  border: none; }
 
-.Tunnel-ringField {
-  width: 150px;
-  height: 160px;
-  background-color: #FFF;
-  position: absolute;
-  margin-top: -12%; }
+.Delivery-subContainer {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-between; }
 
-.is-active {
-  display: block; }
+.Delivery-fieldContainer {
+  height: 30px; }
 
-.parent {
-  margin-left: 22%; }
+.Delivery-fieldName {
+  margin-left: 20px;
+  margin-top: 20px; }
 
-span {
-  margin-left: 22%;
-  font-weight: bold; }
+.Delivery-field {
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  border: none; }
 
-.Render-container {
-  margin: 0 auto;
-  background: lightgrey; }
+.Paiement-subContainer {
+  display: flex;
+  justify-content: space-between; }
+
+.Paiement-fieldSmallContainer {
+  width: 300px; }
+
+.Paiement-fieldName {
+  margin-left: 20px;
+  margin-top: 20px; }
+
+.Paiement-field {
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  border: none; }
+
+/*
+
+// TUNNEL STYLE
+
+.Tunnel {
+
+ &-container {
+  background: linear-gradient(#C3DBC5, #7798AB);
+ }
+ &-pagesContainer {
+  width: 630px;
+  margin: 0 auto;
+ }
+ &-pages{
+  padding: 52px ;
+  background-image: linear-gradient(-180deg, #C3DBC5 0%, #7798AB 100%);
+    display: none;
+ }
+ &-pagesContent{
+  margin: 2em auto;
+
+ }
+ &-pagesTitle{
+  margin: 2em auto;
+  font-size: 24px;
+  font-family: Gotham;
+  text-transform: uppercase;
+  color: #fffefe;
+  text-align: center;
+ }
+ &-ringField {
+  width: 150px;
+  height: 160px;
+  background-color: #FFF;
+  position: absolute;
+  margin-top: -12%;
+ }
+}
+.is-active{
+ display: block;
+ background-image: linear-gradient(-180deg, #C3DBC5 0%, #7798AB 100%);
+}
+// .parent{
+// margin-left: 22%;
+// }
+// span{
+// margin-left: 22%;
+// font-weight: bold;
+// }
+//
+
+.Render{
+ &-container{
+  margin: 0 auto;
+  background: lightgrey;
+ }
+}
+.Recap{
+ &-container {
+  display: flex;
+ }
+ &-imgContainer{
+  background-color: #FFF;
+  width: 200px ;
+  height:200px ;
+ }
+ &-table{
+  text-align: right;
+  color: #FFF;
+  margin: 1em auto;
+  &-total{
+   &-price{
+    width: 250px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 7%;
+    margin-left: 5%;
+    position: absolute;
+   }
+  }
+  &-name{
+   font-size: 20px;
+
+  }
+ }
+  &-input{
+  margin: 2em auto;
+  &-title{
+   margin: 2em auto;
+  }
+ }
+ &-inputTitle{
+  font-family: Gotham;
+   font-size: 24px;
+   font-style: normal;
+  color: #FFF;
+  text-align: center;
+ }
+ &-input-ringName{
+  width: 600px;
+   height: 60px;
+   border-radius: 44px;
+   border: #cecece;}
+   color: #fffefe;
+  outline: none;
+    // text-align: right;
+
+ &-input-ringSubmit{
+  border: #cecece;
+   width: 150px;
+    height: 60px;
+   color: #fffefe;
+  border-radius: 44px;
+  outline: none;
+  // position: absolute;
+   margin-top: -14.5%;
+   margin-left: 85.4%;
+  }
+ }
+
+ // La page des coordonnées
+ .Cordonee{
+  &-container{
+   &-oneTwo{
+    margin: 3em auto;
+    display: flex;
+    margin-left: -60%
+
+   }
+   &-threeFour{
+        display: flex;
+    margin-left: -60%
+
+   }
+  }
+  &-name{
+   color: #FFF;
+   margin-left: 8%;
+  }
+  &-inputField{
+    width: 300px;
+    height: 60px;
+    border: #cecece;
+    border-radius: 44px;
+    outline: none;
+
+  }
+ }
+ .div{
+  width: 300px;
+  height: 60px;
+  margin: 6em auto;
+  margin-left: -12%;
+ }
+ .div1{
+  width: 300px;
+  height: 60px;
+  margin-top: -7.6%;
+  margin-left: 37%;
+ }
+ .div3{
+  width: 300px;
+  height: 60px;
+  margin-top: 7%;
+  margin-left: -5%;
+ }
+
+ // la page de livraison
+ .Delivery{
+    &-container{}
+  &-address{
+
+   &-information{
+    color: #FFF;
+    font-weight: bold;
+    margin-left: 5%;
+   }
+   &-inputField{
+    margin: 1em auto;
+    width: 600px;
+    height: 60px;
+    border-radius: 44px;
+    border: #cecece;
+    outline: none;
+   }
+   &-town{
+         display: flex;
+     margin: 1em auto;
+     margin-left: -28%;
+   }
+   &-townInfo{
+    color: #FFF;
+    font-weight: bold;
+    margin-left: 10%;
+   }
+   &-townInputField{
+    width: 231px;
+    height: 60px;
+    border-radius: 44px;
+    border: #cecece;
+    outline: none;
+   }
+  }
+      &-checkbox{
+
+    &-text{
+     color: #FFF;
+     font-weight: bold;
+     margin-top: -3%;
+     margin-left: 6%;
+    }
+   }
+ }
+
+ // la page de paiement
+ .Paiement{
+
+  &-container{}
+  &-contentName{}
+
+  &-paiementName{
+   color: #FFF;
+   font-weight: bold;
+   margin-left: 5%;
+   margin-top: 5%;
+  }
+  &-inputField{
+   margin: 1em auto;
+   width: 630px;
+   height: 63px;
+   border: #cecece;
+   border-radius: 44px;
+   outline: none;
+  }
+  &-contentCard{}
+  &-cardNumber{
+   color: #FFF;
+   font-weight: bold;
+   margin-left: 5%;
+   margin-top: 5%;
+  }
+  &-contentInf{
+       display: flex;
+
+  }
+  &-paiementExpire{
+   margin: 1em auto;
+   color: #FFF;
+   margin-left: -35%;
+
+  }
+  &-paiementCrypto{
+   margin: 1em auto;
+   color: #FFF;
+   margin-left: -35%;
+
+  }
+  &-smallInputField{
+   width: 260px;
+   height: 60px;
+   border: #cecece;
+   border-radius: 44px;
+   outline: none;
+      margin-left: -45%;
+  }
+ }
+
+ // la page de Confirmation
+
+ .Confirmation{
+  &-title{
+   margin: 1.5em auto;
+   font-size: 34px;
+   font-family: Gotham;
+   text-transform: uppercase;
+   color: #fffefe;
+   text-align: center;
+  }
+  &-img{
+   margin-left: 44%;
+  }
+  &-container{
+   &-messages{
+    margin: 0.5em auto;
+    width: 800px;
+    height: 150px;
+    margin-left: -21%;
+        // background-color: red;
+   }
+  }
+  &-purchaseReference{
+   color: #FFF;
+   font-size: 30px;
+   text-align: center;
+   margin-top: -5%;
+   margin-left: -35%;
+  }
+  &-message{
+   margin: 1.5em auto;
+   color: #fffefe;
+    font-family: GothamLight;
+    font-size: 24px;
+   font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+  &-submitVote{
+   color: #fffefe;
+    font-family: GothamLight;
+    font-size: 24px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+  &-span{
+   text-decoration: none;
+  }
+  &-link{
+   text-decoration: none;
+   color: #fffefe;
+   font-weight: bold;
+  }
+  &-input{
+   width: 120px;
+   height: 64px;
+   background: #c3dbc5;
+    color: #fffefe;
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+   &-parent{
+    margin-left: 30%;
+   }
+  }
+ }
+
+*/
+a {
+  text-decoration: none; }
